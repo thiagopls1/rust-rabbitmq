@@ -11,10 +11,7 @@ edition = "2024"
 [features]
 
 [dependencies]
-async-rs = "0.8.4"
-futures-lite = "2.6.1"
 lapin = "=4.5.0"
 tokio = { version = "1.49.0", features = ["full"] }
 tokio-stream = "0.1.18"
-tracing = "0.1.44"
 
